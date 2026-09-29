@@ -1,0 +1,251 @@
+/* 1. Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: lightgray;
+}
+
+/* 3. Class Selector */
+.container {
+    width: 80%;
+    min-height: 80vh;
+    margin: 20px auto;
+    padding: 2em;
+    background: white;
+    border: 2px solid black;
+}
+
+/* 4. ID Selector */
+#intro {
+    color: blue;
+}
+
+/* 5. Grouping Selector */
+h1, h2, h3 {
+    color: #2563eb;
+}
+
+/* 6. Descendant Selector */
+.container p {
+    line-height: 1.6;
+}
+
+/* 7. Child Selector */
+.container > h1 {
+    text-align: center;
+}
+
+/* 8. Adjacent Sibling Selector */
+h1 + h2 {
+    font-style: italic;
+}
+
+/* 9. General Sibling Selector */
+h3 ~ ul {
+    text-align: left;
+}
+
+/* 10. Attribute Selector */
+a[href] {
+    color: purple;
+}
+
+
+/* TASK 2: UNITS */
+
+h1 {
+    font-size: 5vw;
+}
+
+.container {
+    width: 80%;
+    min-height: 80vh;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.card {
+    width: 90%;
+    border: 2px solid black;
+}
+
+
+/* TASK 3: COLORS */
+
+.color-name {
+    color: red;
+}
+
+.hex {
+    color: #2563eb;
+}
+
+.rgb {
+    color: rgb(0, 128, 0);
+}
+
+.rgba {
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.hsl {
+    color: hsl(280, 70%, 40%);
+}
+
+.hsla {
+    color: hsla(120, 70%, 40%, 0.6);
+}
+
+.card {
+    background-color: rgba(37, 99, 235, 0.1);
+    border: 2px solid hsl(220, 80%, 50%);
+}
+
+
+/*  TASK 4: TYPOGRAPHY */
+
+.article {
+    font-family: Georgia, serif;
+}
+
+.article p {
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    font-stretch: normal;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/*  TASK 5: TEXT PROPERTIES  */
+
+.text-showcase {
+    color: #333;
+}
+
+.text1 {
+    text-align: justify;
+    text-align-last: center;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1.8;
+    text-shadow: 2px 2px 3px gray;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: break-word;
+}
+
+.text2 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 2;
+}
+
+
+/* TASK 6: IMAGES  */
+
+/* Image 1 - Normal rectangular */
+.image1 {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 200px;
+    object-fit: fill;
+    object-position: center;
+    opacity: 1;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+/* Image 2 - Circular */
+.image2 {
+    width: 150px;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.9;
+    border: 3px solid #2563eb;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px gray;
+}
+
+/* Image 3 - Fixed size */
+.image3 {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.8;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px gray;
+}
+
+
+/*ASK 7: PROFILE CARD */
+
+.profile {
+    width: 60%;
+    margin: 30px auto;
+    padding: 2em;
+    text-align: center;
+    background-color: hsla(220, 80%, 95%, 0.9);
+    border: 2px solid #2563eb;
+}
+
+.profile button {
+    padding: 1em;
+    background-color: rgb(37, 99, 235);
+    color: white;
+    border: 2px solid #2563eb;
+    border-radius: 5px;
+}
+
+
+/* TASK 8: TABLE  */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
